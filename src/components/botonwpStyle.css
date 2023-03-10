@@ -17,6 +17,7 @@
 .botonwp{
     padding-bottom: 12px;
     width: 40px;
+    animation: heartBeat;
 }
 .btn-wsp:hover{
     background: #0c7032;
