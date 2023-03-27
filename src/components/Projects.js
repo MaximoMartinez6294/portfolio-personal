@@ -8,6 +8,8 @@ import projImg4 from "../assets/img/projImg4.png"
 import projImg5 from "../assets/img/projImg5.png"
 import projImg6 from "../assets/img/projImg6.png"
 import projImg7 from "../assets/img/projImg7.png"
+import projImg8 from "../assets/img/projImg8.png"
+import projImg9 from "../assets/img/projImg9.png"
 import colorSharp2 from "../assets/img/color-sharp2.png"
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -22,9 +24,19 @@ export const Projects = () => {
       imgUrl: projImg1,
     },
     {
+      title: "Mi Portafolio Personal",
+      description: "Diseño y desarrollo",
+      imgUrl: projImg9,
+    },
+    {
       title: "D'Licieuse Restaurant",
       description: "Diseño y desarrollo",
       imgUrl: projImg2,
+    },
+    {
+      title: "Asona Yoga",
+      description: "Diseño y desarrollo",
+      imgUrl: projImg8,
     },
     {
       title: "Rick and Morty App",
@@ -90,6 +102,17 @@ export const Projects = () => {
                         </Col>
                         <Col sm={6} md={4}>
                           <div className="proj-imgbx">
+                           <a className="NoDecoration" href="https://portfolio-maximo.vercel.app/" target="_blank" >
+                              <img src={projImg9} />
+                              <div className="proj-txtx">
+                               <h4>Portafolio Personal</h4>
+                               <span>Diseño y desarrollo</span>
+                              </div>
+                            </a>    
+                         </div>  
+                        </Col>
+                        <Col sm={6} md={4}>
+                          <div className="proj-imgbx">
                             <a className="NoDecoration" href="https://clics-counter-maximo.netlify.app/" target="_blank" >
                               <img src={projImg5} />
                               <div className="proj-txtx">
@@ -120,6 +143,17 @@ export const Projects = () => {
                               <img src={projImg2} />
                               <div className="proj-txtx">
                                 <h4>D'Licieuse Restaurant</h4>
+                                <span>Diseño y desarrollo</span>
+                              </div>
+                            </a>  
+                         </div>  
+                       </Col>
+                       <Col sm={6} md={4}>
+                         <div className="proj-imgbx">
+                           <a className="NoDecoration" href="https://pagina-yoga.vercel.app/" target="_blank" >  
+                              <img src={projImg8} />
+                              <div className="proj-txtx">
+                                <h4>Asana Yoga</h4>
                                 <span>Diseño y desarrollo</span>
                               </div>
                             </a>  
