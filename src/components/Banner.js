@@ -56,7 +56,7 @@ export const Banner = () => {
               <Col xs={12} md={6} xl={7}>
                 <TrackVisibility>
                 {({ isVisible }) =>
-                  <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
+                  <div className={isVisible ? "animate__animated " : ""}>
                     <span className="tagline">Bienvenido a mi portfolio!</span>
                     <h1>{"Hola soy Maximo Martinez    "}<span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Web Developer", "Web Designer", "UI/UX Designer" ]'> {text} </span></h1>
                     <p> Soy un desarrollador web independiente de Argentina, Bahia Blanca. 
