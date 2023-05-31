@@ -97,8 +97,10 @@ export default function ContactForm (){
   
                                     </textarea>
                                     <button 
+                                    className="glow-on-hoverC'"
                                     onClick= {notify}
-                                    type="submit">
+                                    type="submit"
+                                    >
                                     Enviar Mail
                                     </button>
                                     

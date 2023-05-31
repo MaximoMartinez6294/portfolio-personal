@@ -10,7 +10,6 @@ import projImg6 from "../assets/img/projImg6.png"
 import projImg7 from "../assets/img/projImg7.png"
 import projImg8 from "../assets/img/projImg8.png"
 import projImg9 from "../assets/img/projImg9.png"
-import colorSharp2 from "../assets/img/color-sharp2.png"
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 
@@ -72,7 +71,7 @@ export const Projects = () => {
             <TrackVisibility>
               {({ isVisible }) =>
              <div className={isVisible ? "animate__animated animate__fadeIn": ""}>
-                <h2>Projects</h2>
+                <h2>Projectos</h2>
                 <p></p>
                 <Tab.Container id="projects-tabs" defaultActiveKey="first">
                   <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
@@ -203,7 +202,6 @@ export const Projects = () => {
           </Col>
         </Row>
       </Container>
-      <img src={colorSharp2} alt="" className="background-image-right" />
     </section>
     )
 }

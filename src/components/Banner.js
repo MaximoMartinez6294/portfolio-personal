@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import { ArrowRightCircle } from "react-bootstrap-icons";
-import headerImg from "../assets/img/header-img4.png";
+import headerImg from "../assets/img/moon.png";
 import TrackVisibility from "react-on-screen";
 import "animate.css";
 
@@ -58,7 +58,7 @@ export const Banner = () => {
                 {({ isVisible }) =>
                   <div className={isVisible ? "animate__animated " : ""}>
                     <span className="tagline">Bienvenido a mi portfolio!</span>
-                    <h1>{"Hola soy Maximo Martinez    "}<span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Web Developer", "Web Designer", "UI/UX Designer" ]'> {text} </span></h1>
+                    <h1>{"Hola, soy Maximo Martinez!    "}<span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Web Developer", "Web Designer", "UI/UX Designer" ]'> {text} </span></h1>
                     <p> Soy un desarrollador web independiente de Argentina, Bahia Blanca. 
                     Actualmente me dedico al desarrollo y diseño de paginas web. Estoy en busca de un empleo el cual me permita dejar mi marca en la web y me haga crecer profesionalmente. </p>
                     <a className="button-a" href="#connect">
@@ -67,11 +67,11 @@ export const Banner = () => {
                   </div>}
                 </TrackVisibility>
               </Col>
-              <Col xs={12} md={6} xl={5}>
+              <Col xs={12} md={8} xl={5}>
                 <TrackVisibility>
                 {({ isVisible }) =>
                   <div className={isVisible ? "animate__animated animate__zoomIn" : ""}>
-                    <img src={headerImg} alt="Header Img"/>
+                    <img className="fotito" src={headerImg} alt="fotito"/>
                   </div>}
               </TrackVisibility>
               </Col>
