@@ -9,7 +9,7 @@ import projImg5 from "../assets/img/projImg5.png"
 import projImg6 from "../assets/img/projImg6.png"
 import projImg7 from "../assets/img/projImg7.png"
 import projImg8 from "../assets/img/projImg8.png"
-import projImg9 from "../assets/img/projImg9.png"
+import projImg9 from "../assets/img/projImg44.png"
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 
