@@ -504,7 +504,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   transition: 0.3s ease-in-out;
 }
 .contact form button:hover {
-  color: #ffffff;
+  color: #020202;
 }
 .contact form button:hover::before {
 	content: "";
