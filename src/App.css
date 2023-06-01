@@ -258,7 +258,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 .banner .fotito{
- width: 550px;
+ width: 450px;
  animation: animate 2s infinite ease alternate;
  margin-top: -9px;
  margin-left: -30px;
