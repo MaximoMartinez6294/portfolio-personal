@@ -34,7 +34,7 @@ body{
   overflow-x: hidden;
   position: relative;
   height: 100vh;
-  background-image: url('./assets/img/bg.jpeg');
+  background-image: url('./assets/img/bg.jpeg') !important;
   color: #fff !important;
   font-family: "Centra", sans-serif !important;
 }
