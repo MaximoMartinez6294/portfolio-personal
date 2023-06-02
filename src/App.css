@@ -35,6 +35,10 @@ body{
   position: relative;
   height: 100vh;
   background-image: url('./assets/img/bg.jpeg') !important;
+  background-attachment: fixed;
+  -o-background-size: cover;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
   color: #fff !important;
   font-family: "Centra", sans-serif !important;
 }
