@@ -1,4 +1,4 @@
-import { Container, Row, Col } from "react-bootstrap";
+
 import Carousel from "react-multi-carousel";
 import 'react-multi-carousel/lib/styles.css';
 import meter1 from "../assets/img/meter1.png";
@@ -41,27 +41,27 @@ export const Skills = () => {
                 <p>Estas son las tecnologias en las cuales tengo facilidad</p>
                 <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
                   <div className="item">
-                    <img src={meter1} alt="Image" />
+                    <img src={meter1} alt="" />
                     <h5>React</h5>
                   </div>
                   <div className="item">
-                    <img src={meter2} alt="Image" />
+                    <img src={meter2} alt="" />
                     <h5>Java Script</h5>
                   </div>
                   <div className="item">
-                    <img src={meter3} alt="Image" />
+                    <img src={meter3} alt="" />
                     <h5>Css</h5>
                   </div>
                   <div className="item">
-                    <img src={meter4} alt="Image" />
+                    <img src={meter4} alt="" />
                     <h5>Html</h5>
                   </div>
                   <div className="item">
-                    <img src={meter5} alt="Image" />
+                    <img src={meter5} alt="" />
                     <h5>MongoDB</h5>
                   </div>
                   <div className="item">
-                    <img src={meter6} alt="Image" />
+                    <img src={meter6} alt="" />
                     <h5>Logo Design</h5>
                   </div>
                 </Carousel>

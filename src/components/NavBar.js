@@ -47,10 +47,10 @@ export const NavBar = () => {
           </Nav>
           <span className='navbar-text'>
             <div className="social-icon">
-                <a href='https://www.linkedin.com/in/maximo-martinez-b99a78261/' target="_blank"><img src={navIcon1} alt="" /></a>
-                <a href="mailto:maximomartinez6294@gmail.com" target="_blank"><img src={navIcon2} alt="" /></a>
-                <a href='https://www.instagram.com/maximomartinezz/' target="_blank"><img src={navIcon3} alt="" /></a>
-                <a href='https://github.com/MaximoMartinez6294' target="_blank"><img src={navIcon4} alt="" /></a>
+                <a href='https://www.linkedin.com/in/maximo-martinez-b99a78261/' rel="noreferrer"><img src={navIcon1} alt="" /></a>
+                <a href="mailto:maximomartinez6294@gmail.com" rel="noreferrer"><img src={navIcon2} alt="" /></a>
+                <a href='https://www.instagram.com/maximomartinezz/' rel="noreferrer"><img src={navIcon3} alt="" /></a>
+                <a href='https://github.com/MaximoMartinez6294' rel="noreferrer"><img src={navIcon4} alt="" /></a>
             </div>
             <a href='#connect'>
               <button  className='vvd' onClick={() => console.log("connect")}>

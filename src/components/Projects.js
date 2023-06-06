@@ -1,6 +1,5 @@
 import { Container, Row, Col, Nav, Tab } from "react-bootstrap";
-import { ProjectCard } from "./ProjectCard";
-import { ProjectCard2 } from "./ProjectCard2.js";
+
 import projImg1 from "../assets/img/projImg1.png"
 import projImg2 from "../assets/img/projImg2.png"
 import projImg3 from "../assets/img/projImg3.png"
@@ -91,8 +90,8 @@ export const Projects = () => {
                       <Row>
                           <Col sm={6} md={4}>
                             <div className="proj-imgbx">
-                            <a className="NoDecoration" href="https://piscinasbahia.vercel.app/" target="_blank" >
-                                <img src={projImg1} />
+                            <a className="NoDecoration" href="https://piscinasbahia.vercel.app/" rel="noreferrer" >
+                                <img src={projImg1}  alt = ""/>
                                 <div className="proj-txtx">
                                 <h4>Piscinas Bahia</h4>
                                 <span>Diseño y desarrollo</span>
@@ -102,8 +101,8 @@ export const Projects = () => {
                           </Col>
                           <Col sm={6} md={4}>
                             <div className="proj-imgbx">
-                            <a className="NoDecoration" href="https://portfolio-maximo.vercel.app/" target="_blank" >
-                                <img src={projImg9} />
+                              <a className="NoDecoration" href="https://portfolio-maximo.vercel.app/" rel="noreferrer" >
+                                <img src={projImg9} alt = ""/>
                                 <div className="proj-txtx">
                                 <h4>Portafolio Personal</h4>
                                 <span>Diseño y desarrollo</span>
@@ -113,8 +112,8 @@ export const Projects = () => {
                           </Col>
                           <Col sm={6} md={4}>
                             <div className="proj-imgbx">
-                              <a className="NoDecoration" href="https://clics-counter-maximo.netlify.app/" target="_blank" >
-                                <img src={projImg5} />
+                              <a className="NoDecoration" href="https://clics-counter-maximo.netlify.app/" rel="noreferrer" >
+                                <img src={projImg5} alt = "" />
                                 <div className="proj-txtx">
                                 <h4>Click Counter</h4>
                                 <span>Diseño y desarrollo</span>
@@ -124,8 +123,8 @@ export const Projects = () => {
                         </Col>
                         <Col sm={6} md={4}>
                           <div className="proj-imgbx">
-                            <a className="NoDecoration" href="https://info-rick-and-mort-y.netlify.app//" target="_blank" >
-                                <img src={projImg3} />
+                            <a className="NoDecoration" href="https://info-rick-and-mort-y.netlify.app//" rel="noreferrer" >
+                                <img src={projImg3} alt = "" />
                                 <div className="proj-txtx">
                                   <h4>Rick and Morty App</h4>
                                   <span>Diseño, consumo de Api's y recolección de datos</span>
@@ -139,8 +138,8 @@ export const Projects = () => {
                       <Row>
                         <Col sm={6} md={4}>
                           <div className="proj-imgbx">
-                            <a className="NoDecoration" href="https://dlicieuse-restaurant.netlify.app/" target="_blank" >  
-                                <img src={projImg2} />
+                            <a className="NoDecoration" href="https://dlicieuse-restaurant.netlify.app/" rel="noreferrer" >  
+                                <img src={projImg2} alt = "" />
                                 <div className="proj-txtx">
                                   <h4>D'Licieuse Restaurant</h4>
                                   <span>Diseño y desarrollo</span>
@@ -150,8 +149,8 @@ export const Projects = () => {
                         </Col>
                         <Col sm={6} md={4}>
                           <div className="proj-imgbx">
-                            <a className="NoDecoration" href="https://pagina-yoga.vercel.app/" target="_blank" >  
-                                <img src={projImg8} />
+                            <a className="NoDecoration" href="https://pagina-yoga.vercel.app/" rel="noreferrer" >  
+                                <img src={projImg8}  alt = ""/>
                                 <div className="proj-txtx">
                                   <h4>Asana Yoga</h4>
                                   <span>Diseño y desarrollo</span>
@@ -161,8 +160,8 @@ export const Projects = () => {
                         </Col>
                         <Col sm={6} md={4}>
                           <div className="proj-imgbx">
-                              <a className="NoDecoration" href="https://the-blog-of-lena.netlify.app/" target="_blank" >  
-                              <img src={projImg4} />
+                              <a className="NoDecoration" href="https://the-blog-of-lena.netlify.app/" rel="noreferrer" >  
+                              <img src={projImg4}  alt = ""/>
                               <div className="proj-txtx">
                                 <h4>The blog of Lena</h4>
                                 <span>Desarrollo y diseño</span>
@@ -172,8 +171,8 @@ export const Projects = () => {
                           </Col>
                           <Col sm={6} md={4}>
                           <div className="proj-imgbx">
-                              <a className="NoDecoration" href="https://starbucks-lobby.netlify.app/" target="_blank" >
-                                <img src={projImg6} />
+                              <a className="NoDecoration" href="https://starbucks-lobby.netlify.app/" rel="noreferrer" >
+                                <img src={projImg6}  alt = ""/>
                                 <div className="proj-txtx">
                                 <h4>Starbucks Home Page</h4>
                                 <span>Animacion, desarrollo y diseño</span>
@@ -186,8 +185,8 @@ export const Projects = () => {
                     <Tab.Pane eventKey="third">
                       <Col sm={6} md={4}>
                           <div className="proj-imgbx">
-                          <a className="NoDecoration" href="https://testimonios-students.netlify.app/" target="_blank" > 
-                            <img src={projImg7} />
+                          <a className="NoDecoration" href="https://testimonios-students.netlify.app/" rel="noreferrer" > 
+                            <img src={projImg7}  alt = ""/>
                             <div className="proj-txtx">
                               <h4>Student testimonials</h4>
                               <span>App simple de testimonios</span>
