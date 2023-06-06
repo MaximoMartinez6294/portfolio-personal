@@ -50,21 +50,23 @@ export const Banner = () => {
   }
 
     return(
-        <section className="banner" id="home">
-          <Container>
-            <Row className="aling-items-center">
-              <Col xs={12} md={6} xl={7}>
-                <TrackVisibility>
-                {({ isVisible }) =>
+        <section className="hidden">
+         <section className="banner" id="home">
+           <Container>
+             <Row className="aling-items-center">
+               <Col xs={12} md={6} xl={7}>
+                 <TrackVisibility>
+                  {({ isVisible }) =>
                   <div className={isVisible ? "animate__animated " : ""}>
-                    <span className="tagline">Bienvenido a mi portfolio!</span>
-                    <h1>{"Hola, soy Maximo Martinez!    "}<span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Web Developer", "Web Designer", "UI/UX Designer" ]'> {text} </span></h1>
-                    <p> Soy un desarrollador web independiente de Argentina, Bahia Blanca. 
-                    Actualmente me dedico al desarrollo y diseño de paginas web. Estoy en busca de un empleo el cual me permita dejar mi marca en la web y me haga crecer profesionalmente. </p>
-                    <a className="button-a" href="#connect">
+                     <span className="tagline">Bienvenido a mi portfolio!</span>
+                     <h1>{"Hola, soy Maximo Martinez!    "}<span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Web Developer", "Web Designer", "UI/UX Designer" ]'> {text} </span></h1>
+                     <p> Soy un desarrollador web independiente de Argentina, Bahia Blanca. 
+                     Actualmente me dedico al desarrollo y diseño de paginas web. Estoy en busca de un empleo el cual me permita dejar mi marca en la web y me haga crecer profesionalmente. </p>
+                     <a className="button-a" href="#connect">
                       <button className="button-o" onClick={() => console.log("connect")}> Let's Connect <ArrowRightCircle size={20}/></button>
                     </a>                     
-                  </div>}
+                  </div>
+                  }
                 </TrackVisibility>
               </Col>
               <Col xs={12} md={8} xl={5}>
@@ -78,5 +80,6 @@ export const Banner = () => {
             </Row>
           </Container>
         </section>
+      </section>  
     )
 }

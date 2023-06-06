@@ -45,76 +45,78 @@ export default function ContactForm (){
 
 
     return(
-        <section className="contact" id="connect">
-            <Container>
-                <Row className="align-items-center">
-                    <Col md={6}>
-                        <img src={contactImg} alt="Contact Us"/>
-                    </Col>
-                    <Col md={6}>
-                        <h2>Get in Touch</h2>
-                        <form ref={ref} onSubmit={sendEmail}>
-                            <Row>
-                                <Col 
-                                sm={6} className="px-1">
-                                    <input 
-                                    type="text" 
-                                    name="name"
-                                    placeholder="Nombre"
-                                    onChange={handleInputChange}
-                                    required
-                                    />
-                                </Col>
-                                <Col sm={6} className="px-1">
-                                    <input 
-                                    type="text" 
-                                    name="lastname"
-                                    placeholder="Apellido" 
-                                    onChange={handleInputChange}
-                                    required
-                                    />
-                                </Col>
-                                <Col sm={6} className="px-1">
-                                    <input 
-                                    type="email" 
-                                    name="user_email"
-                                    placeholder="Email" 
-                                    onChange={handleInputChange}/>
-                                </Col>
-                                <Col sm={6} className="px-1">
-                                    <input 
-                                    type="tel" 
-                                    name="phone"
-                                    placeholder="Numero de telefono" 
-                                    onChange={handleInputChange}/>
-                                </Col>
-                                <Col>
-                                    <textarea row="6"
-                                    type="text"
-                                    name="message"
-                                    placeholder="Mensaje"
-                                    onChange={handleInputChange}>
-  
-                                    </textarea>
-                                    <button 
-                                    className="glow-on-hoverC'"
-                                    onClick= {notify}
-                                    type="submit"
-                                    >
-                                    Enviar Mail
-                                    </button>
-                                    
-                                    {success &&
-                                    "Your message has been sent. We'll get back to you soon :)"}
-                                </Col>
-                            </Row>
-                        </form>
-                        <Toaster
-                         position="top-center"
-                         />
-                    </Col>
-                </Row>
-            </Container>       
+        <section className="hidden">
+            <section className="contact" id="connect">
+                <Container>
+                    <Row className="align-items-center">
+                        <Col md={6}>
+                            <img src={contactImg} alt="Contact Us"/>
+                        </Col>
+                        <Col md={6}>
+                            <h2>Get in Touch</h2>
+                            <form ref={ref} onSubmit={sendEmail}>
+                                <Row>
+                                    <Col 
+                                    sm={6} className="px-1">
+                                        <input 
+                                        type="text" 
+                                        name="name"
+                                        placeholder="Nombre"
+                                        onChange={handleInputChange}
+                                        required
+                                        />
+                                    </Col>
+                                    <Col sm={6} className="px-1">
+                                        <input 
+                                        type="text" 
+                                        name="lastname"
+                                        placeholder="Apellido" 
+                                        onChange={handleInputChange}
+                                        required
+                                        />
+                                    </Col>
+                                    <Col sm={6} className="px-1">
+                                        <input 
+                                        type="email" 
+                                        name="user_email"
+                                        placeholder="Email" 
+                                        onChange={handleInputChange}/>
+                                    </Col>
+                                    <Col sm={6} className="px-1">
+                                        <input 
+                                        type="tel" 
+                                        name="phone"
+                                        placeholder="Numero de telefono" 
+                                        onChange={handleInputChange}/>
+                                    </Col>
+                                    <Col>
+                                        <textarea row="6"
+                                        type="text"
+                                        name="message"
+                                        placeholder="Mensaje"
+                                        onChange={handleInputChange}>
+    
+                                        </textarea>
+                                        <button 
+                                        className="glow-on-hoverC'"
+                                        onClick= {notify}
+                                        type="submit"
+                                        >
+                                        Enviar Mail
+                                        </button>
+                                        
+                                        {success &&
+                                        "Your message has been sent. We'll get back to you soon :)"}
+                                    </Col>
+                                </Row>
+                            </form>
+                            <Toaster
+                            position="top-center"
+                            />
+                        </Col>
+                    </Row>
+                </Container>       
+            </section>
         </section>
     )
 }

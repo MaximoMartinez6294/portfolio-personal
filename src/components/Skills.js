@@ -31,43 +31,45 @@ export const Skills = () => {
     }
   };
   return (
-    <section className="skill" id="skills">
-      <div className="container">
-        <div className="row">
-          <div className="col-12">
-            <div className="skill-bx wow zoomIn">
-              <h2>Habilidades</h2>
-              <p>Estas son las tecnologias en las cuales tengo facilidad</p>
-              <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
-                <div className="item">
-                  <img src={meter1} alt="Image" />
-                  <h5>React</h5>
-                </div>
-                <div className="item">
-                  <img src={meter2} alt="Image" />
-                  <h5>Java Script</h5>
-                </div>
-                <div className="item">
-                  <img src={meter3} alt="Image" />
-                  <h5>Css</h5>
-                </div>
-                <div className="item">
-                  <img src={meter4} alt="Image" />
-                  <h5>Html</h5>
-                </div>
-                <div className="item">
-                  <img src={meter5} alt="Image" />
-                  <h5>MongoDB</h5>
-                </div>
-                <div className="item">
-                  <img src={meter6} alt="Image" />
-                  <h5>Logo Design</h5>
-                </div>
-              </Carousel>
-            </div>
-         </div>
+    <section className="hidden">
+      <section className="skill" id="skills">
+        <div className="container">
+          <div className="row">
+            <div className="col-12">
+              <div className="skill-bx wow zoomIn">
+                <h2>Habilidades</h2>
+                <p>Estas son las tecnologias en las cuales tengo facilidad</p>
+                <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
+                  <div className="item">
+                    <img src={meter1} alt="Image" />
+                    <h5>React</h5>
+                  </div>
+                  <div className="item">
+                    <img src={meter2} alt="Image" />
+                    <h5>Java Script</h5>
+                  </div>
+                  <div className="item">
+                    <img src={meter3} alt="Image" />
+                    <h5>Css</h5>
+                  </div>
+                  <div className="item">
+                    <img src={meter4} alt="Image" />
+                    <h5>Html</h5>
+                  </div>
+                  <div className="item">
+                    <img src={meter5} alt="Image" />
+                    <h5>MongoDB</h5>
+                  </div>
+                  <div className="item">
+                    <img src={meter6} alt="Image" />
+                    <h5>Logo Design</h5>
+                  </div>
+                </Carousel>
+              </div>
+          </div>
+          </div>
         </div>
-      </div>
+      </section>
     </section>
   )
 }

@@ -64,144 +64,146 @@ export const Projects = () => {
     },
   ];
   return (
-  <section className="project" id="project">
-      <Container>
-        <Row>
-          <Col size={12}>
-            <TrackVisibility>
-              {({ isVisible }) =>
-             <div className={isVisible ? "animate__animated animate__fadeIn": ""}>
-                <h2>Projectos</h2>
-                <p></p>
-                <Tab.Container id="projects-tabs" defaultActiveKey="first">
-                  <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
-                    <Nav.Item>
-                      <Nav.Link eventKey="first">React</Nav.Link>
-                    </Nav.Item>
-                    <Nav.Item>
-                      <Nav.Link eventKey="second">Javascript</Nav.Link>
-                    </Nav.Item>
-                    <Nav.Item>
-                      <Nav.Link eventKey="third">Otros</Nav.Link>
-                    </Nav.Item>
-                  </Nav>
-                  <Tab.Content id="slideInUp" className={isVisible ? "animate__animated animate__slideInUp" : ""}>
-                    <Tab.Pane eventKey="first">
-                     <Row>
-                        <Col sm={6} md={4}>
-                          <div className="proj-imgbx">
-                           <a className="NoDecoration" href="https://piscinasbahia.vercel.app/" target="_blank" >
-                              <img src={projImg1} />
-                              <div className="proj-txtx">
-                               <h4>Piscinas Bahia</h4>
-                               <span>Diseño y desarrollo</span>
-                              </div>
-                            </a>    
-                         </div>  
+  <section className="hidden">
+    <section className="project" id="project">
+        <Container>
+          <Row>
+            <Col size={12}>
+              <TrackVisibility>
+                {({ isVisible }) =>
+              <div className={isVisible ? "animate__animated animate__fadeIn": ""}>
+                  <h2>Projectos</h2>
+                  <p></p>
+                  <Tab.Container id="projects-tabs" defaultActiveKey="first">
+                    <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
+                      <Nav.Item>
+                        <Nav.Link eventKey="first">React</Nav.Link>
+                      </Nav.Item>
+                      <Nav.Item>
+                        <Nav.Link eventKey="second">Javascript</Nav.Link>
+                      </Nav.Item>
+                      <Nav.Item>
+                        <Nav.Link eventKey="third">Otros</Nav.Link>
+                      </Nav.Item>
+                    </Nav>
+                    <Tab.Content id="slideInUp" className={isVisible ? "animate__animated animate__slideInUp" : ""}>
+                      <Tab.Pane eventKey="first">
+                      <Row>
+                          <Col sm={6} md={4}>
+                            <div className="proj-imgbx">
+                            <a className="NoDecoration" href="https://piscinasbahia.vercel.app/" target="_blank" >
+                                <img src={projImg1} />
+                                <div className="proj-txtx">
+                                <h4>Piscinas Bahia</h4>
+                                <span>Diseño y desarrollo</span>
+                                </div>
+                              </a>    
+                          </div>  
+                          </Col>
+                          <Col sm={6} md={4}>
+                            <div className="proj-imgbx">
+                            <a className="NoDecoration" href="https://portfolio-maximo.vercel.app/" target="_blank" >
+                                <img src={projImg9} />
+                                <div className="proj-txtx">
+                                <h4>Portafolio Personal</h4>
+                                <span>Diseño y desarrollo</span>
+                                </div>
+                              </a>    
+                          </div>  
+                          </Col>
+                          <Col sm={6} md={4}>
+                            <div className="proj-imgbx">
+                              <a className="NoDecoration" href="https://clics-counter-maximo.netlify.app/" target="_blank" >
+                                <img src={projImg5} />
+                                <div className="proj-txtx">
+                                <h4>Click Counter</h4>
+                                <span>Diseño y desarrollo</span>
+                                </div>
+                              </a>
+                            </div>  
                         </Col>
                         <Col sm={6} md={4}>
                           <div className="proj-imgbx">
-                           <a className="NoDecoration" href="https://portfolio-maximo.vercel.app/" target="_blank" >
-                              <img src={projImg9} />
-                              <div className="proj-txtx">
-                               <h4>Portafolio Personal</h4>
-                               <span>Diseño y desarrollo</span>
-                              </div>
-                            </a>    
-                         </div>  
+                            <a className="NoDecoration" href="https://info-rick-and-mort-y.netlify.app//" target="_blank" >
+                                <img src={projImg3} />
+                                <div className="proj-txtx">
+                                  <h4>Rick and Morty App</h4>
+                                  <span>Diseño, consumo de Api's y recolección de datos</span>
+                                </div>
+                              </a> 
+                          </div>  
+                        </Col>
+                      </Row>
+                      </Tab.Pane>
+                      <Tab.Pane eventKey="second">
+                      <Row>
+                        <Col sm={6} md={4}>
+                          <div className="proj-imgbx">
+                            <a className="NoDecoration" href="https://dlicieuse-restaurant.netlify.app/" target="_blank" >  
+                                <img src={projImg2} />
+                                <div className="proj-txtx">
+                                  <h4>D'Licieuse Restaurant</h4>
+                                  <span>Diseño y desarrollo</span>
+                                </div>
+                              </a>  
+                          </div>  
                         </Col>
                         <Col sm={6} md={4}>
                           <div className="proj-imgbx">
-                            <a className="NoDecoration" href="https://clics-counter-maximo.netlify.app/" target="_blank" >
-                              <img src={projImg5} />
+                            <a className="NoDecoration" href="https://pagina-yoga.vercel.app/" target="_blank" >  
+                                <img src={projImg8} />
+                                <div className="proj-txtx">
+                                  <h4>Asana Yoga</h4>
+                                  <span>Diseño y desarrollo</span>
+                                </div>
+                              </a>  
+                          </div>  
+                        </Col>
+                        <Col sm={6} md={4}>
+                          <div className="proj-imgbx">
+                              <a className="NoDecoration" href="https://the-blog-of-lena.netlify.app/" target="_blank" >  
+                              <img src={projImg4} />
                               <div className="proj-txtx">
-                               <h4>Click Counter</h4>
-                               <span>Diseño y desarrollo</span>
+                                <h4>The blog of Lena</h4>
+                                <span>Desarrollo y diseño</span>
+                                </div>  
+                              </a>  
+                          </div>  
+                          </Col>
+                          <Col sm={6} md={4}>
+                          <div className="proj-imgbx">
+                              <a className="NoDecoration" href="https://starbucks-lobby.netlify.app/" target="_blank" >
+                                <img src={projImg6} />
+                                <div className="proj-txtx">
+                                <h4>Starbucks Home Page</h4>
+                                <span>Animacion, desarrollo y diseño</span>
+                                </div>
+                              </a>  
+                          </div>  
+                        </Col>
+                      </Row>
+                    </Tab.Pane>
+                    <Tab.Pane eventKey="third">
+                      <Col sm={6} md={4}>
+                          <div className="proj-imgbx">
+                          <a className="NoDecoration" href="https://testimonios-students.netlify.app/" target="_blank" > 
+                            <img src={projImg7} />
+                            <div className="proj-txtx">
+                              <h4>Student testimonials</h4>
+                              <span>App simple de testimonios</span>
                               </div>
                             </a>
                           </div>  
-                       </Col>
-                       <Col sm={6} md={4}>
-                         <div className="proj-imgbx">
-                           <a className="NoDecoration" href="https://info-rick-and-mort-y.netlify.app//" target="_blank" >
-                              <img src={projImg3} />
-                              <div className="proj-txtx">
-                                <h4>Rick and Morty App</h4>
-                                <span>Diseño, consumo de Api's y recolección de datos</span>
-                              </div>
-                            </a> 
-                         </div>  
-                       </Col>
-                     </Row>
-                    </Tab.Pane>
-                    <Tab.Pane eventKey="second">
-                     <Row>
-                       <Col sm={6} md={4}>
-                         <div className="proj-imgbx">
-                           <a className="NoDecoration" href="https://dlicieuse-restaurant.netlify.app/" target="_blank" >  
-                              <img src={projImg2} />
-                              <div className="proj-txtx">
-                                <h4>D'Licieuse Restaurant</h4>
-                                <span>Diseño y desarrollo</span>
-                              </div>
-                            </a>  
-                         </div>  
-                       </Col>
-                       <Col sm={6} md={4}>
-                         <div className="proj-imgbx">
-                           <a className="NoDecoration" href="https://pagina-yoga.vercel.app/" target="_blank" >  
-                              <img src={projImg8} />
-                              <div className="proj-txtx">
-                                <h4>Asana Yoga</h4>
-                                <span>Diseño y desarrollo</span>
-                              </div>
-                            </a>  
-                         </div>  
-                       </Col>
-                       <Col sm={6} md={4}>
-                         <div className="proj-imgbx">
-                            <a className="NoDecoration" href="https://the-blog-of-lena.netlify.app/" target="_blank" >  
-                             <img src={projImg4} />
-                             <div className="proj-txtx">
-                               <h4>The blog of Lena</h4>
-                               <span>Desarrollo y diseño</span>
-                              </div>  
-                            </a>  
-                         </div>  
-                        </Col>
-                        <Col sm={6} md={4}>
-                         <div className="proj-imgbx">
-                            <a className="NoDecoration" href="https://starbucks-lobby.netlify.app/" target="_blank" >
-                              <img src={projImg6} />
-                              <div className="proj-txtx">
-                               <h4>Starbucks Home Page</h4>
-                               <span>Animacion, desarrollo y diseño</span>
-                              </div>
-                            </a>  
-                         </div>  
-                       </Col>
-                     </Row>
-                  </Tab.Pane>
-                  <Tab.Pane eventKey="third">
-                    <Col sm={6} md={4}>
-                        <div className="proj-imgbx">
-                         <a className="NoDecoration" href="https://testimonios-students.netlify.app/" target="_blank" > 
-                           <img src={projImg7} />
-                           <div className="proj-txtx">
-                             <h4>Student testimonials</h4>
-                             <span>App simple de testimonios</span>
-                            </div>
-                          </a>
-                        </div>  
-                      </Col> 
-                    </Tab.Pane>
-                  </Tab.Content>
-                </Tab.Container>
-              </div>}
-            </TrackVisibility>
-          </Col>
-        </Row>
-      </Container>
+                        </Col> 
+                      </Tab.Pane>
+                    </Tab.Content>
+                  </Tab.Container>
+                </div>}
+              </TrackVisibility>
+            </Col>
+          </Row>
+        </Container>
+      </section>
     </section>
-    )
+  )
 }
