@@ -138,7 +138,7 @@ export const Projects = () => {
                       <Row>
                         <Col sm={6} md={4}>
                           <div className="proj-imgbx">
-                            <a className="NoDecoration" href="https://dlicieuse-restaurant.netlify.app/" rel="noreferrer" >  
+                            <a className="NoDecoration" href="https://dlicieuse.netlify.app/" rel="noreferrer" >  
                                 <img src={projImg2} alt = "" />
                                 <div className="proj-txtx">
                                   <h4>D'Licieuse Restaurant</h4>
