@@ -110,17 +110,6 @@ export const Projects = () => {
                               </a>    
                           </div>  
                           </Col>
-                          <Col sm={6} md={4}>
-                            <div className="proj-imgbx">
-                              <a className="NoDecoration" href="https://clics-counter-maximo.netlify.app/" rel="noreferrer" >
-                                <img src={projImg5} alt = "" />
-                                <div className="proj-txtx">
-                                <h4>Click Counter</h4>
-                                <span>Diseño y desarrollo</span>
-                                </div>
-                              </a>
-                            </div>  
-                        </Col>
                         <Col sm={6} md={4}>
                           <div className="proj-imgbx">
                             <a className="NoDecoration" href="https://info-rick-and-mort-y.netlify.app//" rel="noreferrer" >
