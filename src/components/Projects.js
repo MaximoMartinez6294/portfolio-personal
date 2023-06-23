@@ -90,7 +90,7 @@ export const Projects = () => {
                       <Row>
                           <Col sm={6} md={4}>
                             <div className="proj-imgbx">
-                            <a className="NoDecoration" href="https://piscinasbahia.vercel.app/" rel="noreferrer" >
+                            <a className="NoDecoration" href="https://www.piscinasbahiablanca.com.ar/" rel="noreferrer" >
                                 <img src={projImg1}  alt = ""/>
                                 <div className="proj-txtx">
                                 <h4>Piscinas Bahia</h4>
