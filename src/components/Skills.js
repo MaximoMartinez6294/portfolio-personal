@@ -7,6 +7,11 @@ import meter3 from "../assets/img/meter3.png";
 import meter4 from "../assets/img/meter4.png";
 import meter5 from "../assets/img/meter5.png";
 import meter6 from "../assets/img/meter6.svg";
+import meter7 from "../assets/img/meter7.png";
+import meter8 from "../assets/img/meter8.png";
+import meter9 from "../assets/img/meter9.png";
+import meter10 from "../assets/img/meter10.png";
+import meter11 from "../assets/img/meter11.png";
 
 
 
@@ -63,6 +68,26 @@ export const Skills = () => {
                   <div className="item">
                     <img src={meter6} alt="" />
                     <h5>Logo Design</h5>
+                  </div>
+                  <div className="item">
+                    <img src={meter7} alt="" />
+                    <h5>Figma</h5>
+                  </div>
+                  <div className="item">
+                    <img src={meter8} alt="" />
+                    <h5>Insomnia</h5>
+                  </div>
+                  <div className="item">
+                    <img src={meter9} alt="" />
+                    <h5>Sass</h5>
+                  </div>
+                  <div className="item">
+                    <img src={meter10} alt="" />
+                    <h5>Photoshop</h5>
+                  </div>
+                  <div className="item">
+                    <img src={meter11} alt="" />
+                    <h5>Illustrator</h5>
                   </div>
                 </Carousel>
               </div>

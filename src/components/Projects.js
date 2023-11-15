@@ -9,6 +9,9 @@ import projImg6 from "../assets/img/projImg6.png"
 import projImg7 from "../assets/img/projImg7.png"
 import projImg8 from "../assets/img/projImg8.png"
 import projImg9 from "../assets/img/projImg44.png"
+import projImg10 from "../assets/img/PORTADA.png"
+import projImg11 from "../assets/img/projImg11.png"
+import projImg12 from "../assets/img/projImg12.png"
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 
@@ -20,6 +23,16 @@ export const Projects = () => {
       title: "Piscinas Bahia",
       description: "Diseño y desarrollo",
       imgUrl: projImg1,
+    },
+    {
+      title: "Iglesia Casa De Avivamiento",
+      description: "Diseño y desarrollo web",
+      imgUrl: projImg10,
+    },
+    {
+      title: "Panaderia Del Carmen",
+      description: "Diseño y desarrollo web en proceso",
+      imgUrl: projImg11,
     },
     {
       title: "Mi Portafolio Personal",
@@ -76,10 +89,10 @@ export const Projects = () => {
                   <Tab.Container id="projects-tabs" defaultActiveKey="first">
                     <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
                       <Nav.Item>
-                        <Nav.Link eventKey="first">React</Nav.Link>
+                        <Nav.Link eventKey="first">Clientes</Nav.Link>
                       </Nav.Item>
                       <Nav.Item>
-                        <Nav.Link eventKey="second">Javascript</Nav.Link>
+                        <Nav.Link eventKey="second">Proyectos Personales</Nav.Link>
                       </Nav.Item>
                       <Nav.Item>
                         <Nav.Link eventKey="third">Otros</Nav.Link>
@@ -90,10 +103,21 @@ export const Projects = () => {
                       <Row>
                           <Col sm={6} md={4}>
                             <div className="proj-imgbx">
-                            <a className="NoDecoration" href="https://www.piscinasbahiablanca.com.ar/" rel="noreferrer" >
+                            <a className="NoDecoration" href="https://www.piscinasbahiablanca.com.ar/" target="_blank"  rel="noreferrer" >
                                 <img src={projImg1}  alt = ""/>
                                 <div className="proj-txtx">
                                 <h4>Piscinas Bahia</h4>
+                                <span>Diseño y desarrollo web </span>
+                                </div>
+                              </a>    
+                          </div>  
+                          </Col>
+                          <Col sm={6} md={4}>
+                            <div className="proj-imgbx">
+                            <a className="NoDecoration" href="https://www.casadeavivamiento.ar/" target="_blank" rel="noreferrer" >
+                                <img src={projImg10}  alt = ""/>
+                                <div className="proj-txtx">
+                                <h4>Iglesia Casa de avivamiento Argentina </h4>
                                 <span>Diseño y desarrollo</span>
                                 </div>
                               </a>    
@@ -101,7 +125,41 @@ export const Projects = () => {
                           </Col>
                           <Col sm={6} md={4}>
                             <div className="proj-imgbx">
-                              <a className="NoDecoration" href="https://portfolio-maximo.vercel.app/" rel="noreferrer" >
+                            <a className="NoDecoration" href="https://panaderia-del-carmen.vercel.app/" target="_blank" rel="noreferrer" >
+                                <img src={projImg11}  alt = ""/>
+                                <div className="proj-txtx">
+                                <h4>Panaderia Del Carmen</h4>
+                                <span>Diseño y desarrollo en proceso (todavia no esta terminada)</span>
+                                </div>
+                              </a>    
+                          </div>  
+                          </Col>
+                          <Col sm={6} md={4}>
+                            <div className="proj-imgbx">
+                            <a className="NoDecoration" href="https://enfermeria-app.vercel.app/" target="_blank" rel="noreferrer" >
+                                <img src={projImg12}  alt = ""/>
+                                <div className="proj-txtx">
+                                <h4>Medi Home </h4>
+                                <span>Diseño y desarrollo en proceso (todavia no esta terminada)</span>
+                                <br />
+                                <span>
+                                  -Frontend - React & Scss
+                                  <br />
+                                  -Backend - NodeJs & Express
+                                  <br />
+                                  -State Managment - Redux & Toolkit
+                                </span>
+                                </div>
+                              </a>    
+                          </div>  
+                          </Col>
+                      </Row>
+                      </Tab.Pane>
+                      <Tab.Pane eventKey="second">
+                      <Row>
+                      <Col sm={6} md={4}>
+                            <div className="proj-imgbx">
+                              <a className="NoDecoration" href="https://portfolio-maximo.vercel.app/" target="_blank"  rel="noreferrer" >
                                 <img src={projImg9} alt = ""/>
                                 <div className="proj-txtx">
                                 <h4>Portafolio Personal</h4>
@@ -112,22 +170,7 @@ export const Projects = () => {
                           </Col>
                         <Col sm={6} md={4}>
                           <div className="proj-imgbx">
-                            <a className="NoDecoration" href="https://info-rick-and-mort-y.netlify.app//" rel="noreferrer" >
-                                <img src={projImg3} alt = "" />
-                                <div className="proj-txtx">
-                                  <h4>Rick and Morty App</h4>
-                                  <span>Diseño, consumo de Api's y recolección de datos</span>
-                                </div>
-                              </a> 
-                          </div>  
-                        </Col>
-                      </Row>
-                      </Tab.Pane>
-                      <Tab.Pane eventKey="second">
-                      <Row>
-                        <Col sm={6} md={4}>
-                          <div className="proj-imgbx">
-                            <a className="NoDecoration" href="https://dlicieuse.netlify.app/" rel="noreferrer" >  
+                            <a className="NoDecoration" href="https://dlicieuse.netlify.app/" target="_blank"  rel="noreferrer" >  
                                 <img src={projImg2} alt = "" />
                                 <div className="proj-txtx">
                                   <h4>D'Licieuse Restaurant</h4>
@@ -138,7 +181,7 @@ export const Projects = () => {
                         </Col>
                         <Col sm={6} md={4}>
                           <div className="proj-imgbx">
-                            <a className="NoDecoration" href="https://pagina-yoga.vercel.app/" rel="noreferrer" >  
+                            <a className="NoDecoration" href="https://pagina-yoga.vercel.app/" target="_blank"  rel="noreferrer" >  
                                 <img src={projImg8}  alt = ""/>
                                 <div className="proj-txtx">
                                   <h4>Asana Yoga</h4>
@@ -149,7 +192,18 @@ export const Projects = () => {
                         </Col>
                         <Col sm={6} md={4}>
                           <div className="proj-imgbx">
-                              <a className="NoDecoration" href="https://the-blog-of-lena.netlify.app/" rel="noreferrer" >  
+                            <a className="NoDecoration" href="https://info-rick-and-mort-y.netlify.app//" target="_blank"  rel="noreferrer" >
+                                <img src={projImg3} alt = "" />
+                                <div className="proj-txtx">
+                                  <h4>Rick and Morty App</h4>
+                                  <span>Diseño, consumo de Api's y recolección de datos</span>
+                                </div>
+                              </a> 
+                          </div>  
+                        </Col>
+                        <Col sm={6} md={4}>
+                          <div className="proj-imgbx">
+                              <a className="NoDecoration" href="https://the-blog-of-lena.netlify.app/" target="_blank"  rel="noreferrer" >  
                               <img src={projImg4}  alt = ""/>
                               <div className="proj-txtx">
                                 <h4>The blog of Lena</h4>
@@ -160,7 +214,7 @@ export const Projects = () => {
                           </Col>
                           <Col sm={6} md={4}>
                           <div className="proj-imgbx">
-                              <a className="NoDecoration" href="https://starbucks-lobby.netlify.app/" rel="noreferrer" >
+                              <a className="NoDecoration" href="https://starbucks-lobby.netlify.app/" target="_blank"  rel="noreferrer" >
                                 <img src={projImg6}  alt = ""/>
                                 <div className="proj-txtx">
                                 <h4>Starbucks Home Page</h4>
@@ -174,7 +228,7 @@ export const Projects = () => {
                     <Tab.Pane eventKey="third">
                       <Col sm={6} md={4}>
                           <div className="proj-imgbx">
-                          <a className="NoDecoration" href="https://testimonios-students.netlify.app/" rel="noreferrer" > 
+                          <a className="NoDecoration" href="https://testimonios-students.netlify.app/" target="_blank"  rel="noreferrer" > 
                             <img src={projImg7}  alt = ""/>
                             <div className="proj-txtx">
                               <h4>Student testimonials</h4>
