@@ -139,7 +139,7 @@ export const Projects = () => {
                             <a className="NoDecoration" href="https://enfermeria-app.vercel.app/" target="_blank" rel="noreferrer" >
                                 <img src={projImg12}  alt = ""/>
                                 <div className="proj-txtx">
-                                <h4>Medi Home </h4>
+                                <h4>MediHome </h4>
                                 <span>Diseño y desarrollo en proceso (todavia no esta terminada)</span>
                                 <br />
                                 <span>
