@@ -201,42 +201,9 @@ export const Projects = () => {
                               </a> 
                           </div>  
                         </Col>
-                        <Col sm={6} md={4}>
-                          <div className="proj-imgbx">
-                              <a className="NoDecoration" href="https://the-blog-of-lena.netlify.app/" target="_blank"  rel="noreferrer" >  
-                              <img src={projImg4}  alt = ""/>
-                              <div className="proj-txtx">
-                                <h4>The blog of Lena</h4>
-                                <span>Desarrollo y diseño</span>
-                                </div>  
-                              </a>  
-                          </div>  
-                          </Col>
-                          <Col sm={6} md={4}>
-                          <div className="proj-imgbx">
-                              <a className="NoDecoration" href="https://starbucks-lobby.netlify.app/" target="_blank"  rel="noreferrer" >
-                                <img src={projImg6}  alt = ""/>
-                                <div className="proj-txtx">
-                                <h4>Starbucks Home Page</h4>
-                                <span>Animacion, desarrollo y diseño</span>
-                                </div>
-                              </a>  
-                          </div>  
-                        </Col>
                       </Row>
                     </Tab.Pane>
                     <Tab.Pane eventKey="third">
-                      <Col sm={6} md={4}>
-                          <div className="proj-imgbx">
-                          <a className="NoDecoration" href="https://testimonios-students.netlify.app/" target="_blank"  rel="noreferrer" > 
-                            <img src={projImg7}  alt = ""/>
-                            <div className="proj-txtx">
-                              <h4>Student testimonials</h4>
-                              <span>App simple de testimonios</span>
-                              </div>
-                            </a>
-                          </div>  
-                        </Col> 
                       </Tab.Pane>
                     </Tab.Content>
                   </Tab.Container>
