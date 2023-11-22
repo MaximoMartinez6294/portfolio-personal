@@ -12,6 +12,7 @@ import projImg9 from "../assets/img/projImg44.png"
 import projImg10 from "../assets/img/PORTADA.png"
 import projImg11 from "../assets/img/projImg11.png"
 import projImg12 from "../assets/img/projImg12.png"
+import projImg13 from "../assets/img/projImg13.png"
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 
@@ -197,6 +198,17 @@ export const Projects = () => {
                                 <div className="proj-txtx">
                                   <h4>Rick and Morty App</h4>
                                   <span>Diseño, consumo de Api's y recolección de datos</span>
+                                </div>
+                              </a> 
+                          </div>  
+                        </Col>
+                        <Col sm={6} md={4}>
+                          <div className="proj-imgbx">
+                            <a className="NoDecoration" href="https://bosque-encantado.vercel.app/" target="_blank"  rel="noreferrer" >
+                                <img src={projImg13} alt = "" />
+                                <div className="proj-txtx">
+                                  <h4>Bosque encantado</h4>
+                                  <span>Diseño y Prueba de paralax effect</span>
                                 </div>
                               </a> 
                           </div>  
