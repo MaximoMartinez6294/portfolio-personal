@@ -158,17 +158,6 @@ export const Projects = () => {
                       </Tab.Pane>
                       <Tab.Pane eventKey="second">
                       <Row>
-                      <Col sm={6} md={4}>
-                            <div className="proj-imgbx">
-                              <a className="NoDecoration" href="https://portfolio-maximo.vercel.app/" target="_blank"  rel="noreferrer" >
-                                <img src={projImg9} alt = ""/>
-                                <div className="proj-txtx">
-                                <h4>Portafolio Personal</h4>
-                                <span>Diseño y desarrollo</span>
-                                </div>
-                              </a>    
-                          </div>  
-                          </Col>
                         <Col sm={6} md={4}>
                           <div className="proj-imgbx">
                             <a className="NoDecoration" href="https://dlicieuse.netlify.app/" target="_blank"  rel="noreferrer" >  
