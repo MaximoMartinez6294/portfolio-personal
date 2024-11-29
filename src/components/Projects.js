@@ -13,6 +13,8 @@ import projImg10 from "../assets/img/PORTADA.png"
 import projImg11 from "../assets/img/projImg11.png"
 import projImg12 from "../assets/img/projImg12.png"
 import projImg13 from "../assets/img/projImg13.png"
+import projImg14 from "../assets/img/projImg14.png"
+import projImg15 from "../assets/img/projImg15.png"
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 
@@ -31,9 +33,19 @@ export const Projects = () => {
       imgUrl: projImg10,
     },
     {
+      title: "ByPass Electric",
+      description: "Diseño y desarrollo web",
+      imgUrl: projImg14,
+    },
+    {
       title: "Panaderia Del Carmen",
-      description: "Diseño y desarrollo web en proceso",
+      description: "Diseño y desarrollo web ",
       imgUrl: projImg11,
+    },
+    {
+      title: "Inteligencia Creativa",
+      description: "Diseño y desarrollo web en proceso",
+      imgUrl: projImg15,
     },
     {
       title: "Mi Portafolio Personal",
@@ -104,7 +116,7 @@ export const Projects = () => {
                       <Row>
                           <Col sm={6} md={4}>
                             <div className="proj-imgbx">
-                            <a className="NoDecoration" href="https://www.piscinasbahiablanca.com.ar/" target="_blank"  rel="noreferrer" >
+                            <a className="NoDecoration" href="https://piscinasbahia.vercel.app/" target="_blank"  rel="noreferrer" >
                                 <img src={projImg1}  alt = ""/>
                                 <div className="proj-txtx">
                                 <h4>Piscinas Bahia</h4>
@@ -126,11 +138,33 @@ export const Projects = () => {
                           </Col>
                           <Col sm={6} md={4}>
                             <div className="proj-imgbx">
-                            <a className="NoDecoration" href="https://panaderia-del-carmen.vercel.app/" target="_blank" rel="noreferrer" >
+                            <a className="NoDecoration" href="https://www.bypasselectric.com.ar/" target="_blank" rel="noreferrer" >
+                                <img src={projImg14}  alt = ""/>
+                                <div className="proj-txtx">
+                                <h4>Bypass Electric</h4>
+                                <span>Diseño y desarrollo </span>
+                                </div>
+                              </a>    
+                          </div>  
+                          </Col>
+                          <Col sm={6} md={4}>
+                            <div className="proj-imgbx">
+                            <a className="NoDecoration" href="https://www.panaderiadelcarmen.com.ar/" target="_blank" rel="noreferrer" >
                                 <img src={projImg11}  alt = ""/>
                                 <div className="proj-txtx">
                                 <h4>Panaderia Del Carmen</h4>
-                                <span>Diseño y desarrollo en proceso (todavia no esta terminada)</span>
+                                <span>Diseño y desarrollo </span>
+                                </div>
+                              </a>    
+                          </div>  
+                          </Col>
+                          <Col sm={6} md={4}>
+                            <div className="proj-imgbx">
+                            <a className="NoDecoration" href="https://inteligencia-creativa.vercel.app/" target="_blank" rel="noreferrer" >
+                                <img src={projImg15}  alt = ""/>
+                                <div className="proj-txtx">
+                                <h4>Inteligencia Creativa</h4>
+                                <span>Diseño y desarrollo web en proceso </span>
                                 </div>
                               </a>    
                           </div>  

@@ -22,7 +22,7 @@ export const Footer = () => {
               <a href="https://www.instagram.com/maximomartinezz/" rel="noreferrer"><img src={navIcon3} alt="Icon" /></a>
               <a href='https://github.com/MaximoMartinez6294'rel="noreferrer"><img src={navIcon4} alt="" /></a>
             </div>
-            <p>Copyright 2023 Maximo Martinez. All Rights Reserved</p>
+            <p>Copyright 2024 Maximo Martinez. All Rights Reserved</p>
           </Col>
         </Row>
       </Container>
