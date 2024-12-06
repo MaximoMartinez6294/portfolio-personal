@@ -127,7 +127,7 @@ export const Projects = () => {
                           </Col>
                           <Col sm={6} md={4}>
                             <div className="proj-imgbx">
-                            <a className="NoDecoration" href="https://www.casadeavivamiento.ar/" target="_blank" rel="noreferrer" >
+                            <a className="NoDecoration" href="https://casa-de-avivamiento.vercel.app/" target="_blank" rel="noreferrer" >
                                 <img src={projImg10}  alt = ""/>
                                 <div className="proj-txtx">
                                 <h4>Iglesia Casa de avivamiento Argentina </h4>
